@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include zentrica *.css
+recursive-include zentrica *.csv
+recursive-include zentrica *.html
+recursive-include zentrica *.ico
+recursive-include zentrica *.js
+recursive-include zentrica *.json
+recursive-include zentrica *.md
+recursive-include zentrica *.png
+recursive-include zentrica *.py
+recursive-include zentrica *.svg
+recursive-include zentrica *.txt
+recursive-exclude zentrica *.pyc
